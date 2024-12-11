@@ -10,4 +10,8 @@ class Cliente extends Model
 {
     //
     protected $table = 'clientes';
+    public function enderecos()
+    {
+        return $this->hasMany(Endereco::class);
+    }
 }
