@@ -29,7 +29,7 @@
     <h2>Endereço</h2>
     <div class="col-6">
       <label for="logradouro" class="form-label">Rua:</label>
-      <input type="text" class="form-control" name="rua" id="rua">
+      <input type="text" class="form-control" name="logradouro" id="logradouro">
     </div>
     <div class="col-3">
       <label for="bairro" class="form-label">Bairro:</label>
@@ -41,19 +41,11 @@
     </div>
     <div class="col-2">
       <label for="estado" class="form-label">Estado:</label>
-      <input type="text" class="form-control" name="uf" id="uf">
+      <input type="text" class="form-control" name="estado" id="estado">
     </div>
     <div class="col-3">
       <label for="cep" class="form-label">CEP:</label>
       <input type="text" class="form-control" name="cep" id="cep">
-    </div>
-    <div class="col-3">
-      <label for="cep" class="form-label">Complemento:</label>
-      <input type="text" class="form-control" name="complemento" id="complemento">
-    </div>
-    <div class="col-3">
-      <label for="cep" class="form-label">Numero:</label>
-      <input type="text" class="form-control" name="numero" id="numero">
     </div>
 
   </div>
